@@ -1,0 +1,12 @@
+name = "md380tools-firmware"
+main = "src/index.ts"
+compatibility_date = "2022-05-27"
+
+account_id = "<INSERT_YOUR_ACCOUNT_ID>"
+usage_model = "bundled"
+
+route = "https://md380.mcswain.cloud/*"
+
+[[r2_buckets]]
+binding = 'FIRMWARE_BUCKET'
+bucket_name = '<INSERT_YOUR_BUCKET_NAME>'
